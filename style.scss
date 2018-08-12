@@ -1,0 +1,77 @@
+*{
+	box-sizing:border-box;
+}
+
+input[type=text]
+	{
+		width: 60%;
+		height: 35px;
+		font-size: 20px;
+	}
+button{
+		background-color: #d6dad7;
+		color: black;
+	}
+	ul{
+		margin-left:10px;
+		margin-right: 10px;
+		
+	}
+	ul li{
+		cursor: pointer;
+		background-color: white;
+		list-style-type: none;
+		text-align: left;
+	}
+	ul li:nth-child(odd){
+		background-color:  #f0f0f0 ;
+	}
+	.uk-button{
+		background-color: white;
+		color: black;
+	}
+	.uk-button:hover{
+		background-color: white;
+	}
+	ul li.checkbox{
+		background-color: #b9b9b9;
+		text-decoration: line-through;
+	}
+	.close {
+		position: absolute;
+		color: red;
+		align: right;
+		right: 0;
+		direction: ltr;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    
+}
+
+.left {
+    left: 0;
+    background-color: #111;
+}
+
+.right {
+    right: 0;
+    background-color: red;
+}
+.title2{
+	color: white;
+	font-size: 30px;
+	margin-top: 10px;
+}
