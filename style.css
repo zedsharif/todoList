@@ -7,8 +7,8 @@ input[type=text] {
   font-size: 20px; }
 
 button {
-  background-color: #d6dad7;
-  color: black; }
+  background-color: #FF0000;
+  color: #FF0000; }
 
 ul {
   margin-left: 10px;
@@ -16,34 +16,33 @@ ul {
 
 ul li {
   cursor: pointer;
-  background-color: white;
+  background-color: #ffffff;
   list-style-type: none;
   text-align: left; }
 
 ul li:nth-child(odd) {
-  background-color: #f0f0f0; }
+  background-color: #000000; }
 
 .uk-button {
-  background-color: white;
-  color: black; }
+  background-color: #ffffff;
+  color: #000000; }
 
 .uk-button:hover {
-  background-color: white; }
+  background-color: #ffffff; }
 
 ul li.checkbox {
-  background-color: #b9b9b9;
   text-decoration: line-through; }
 
 .close {
   position: absolute;
-  color: red;
+  color: #FF0000;
   align: right;
   right: 0;
   direction: ltr; }
 
 .close:hover {
-  background-color: #f44336;
-  color: white; }
+  background-color: #FF0000;
+  color: #ffffff; }
 
 .split {
   height: 100%;
@@ -55,15 +54,15 @@ ul li.checkbox {
 
 .left {
   left: 0;
-  background-color: #111; }
+  background-color: #000000; }
 
 .right {
   right: 0;
-  background-color: red; }
+  background-color: #FF0000; }
 
 .title2 {
-  color: white;
-  font-size: 30px;
+  color: #ffffff;
+  font-size: 20px;
   margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

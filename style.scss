@@ -1,77 +1,77 @@
+@import 'color';
+@import 'dimensions';
 *{
 	box-sizing:border-box;
 }
-
 input[type=text]
 	{
-		width: 60%;
-		height: 35px;
-		font-size: 20px;
+		width:$dimen-width-input;
+		height:$dimen-height-input;
+		font-size:$dimen-font-size;
 	}
 button{
-		background-color: #d6dad7;
-		color: black;
+		background-color: $color-red;
+		color: $color-red;
 	}
 	ul{
-		margin-left:10px;
-		margin-right: 10px;
+		margin-left:$dimen-margin;
+		margin-right:$dimen-margin;
 		
 	}
 	ul li{
 		cursor: pointer;
-		background-color: white;
+		background-color: $color-white;
 		list-style-type: none;
-		text-align: left;
+		text-align:$dimen-text-align;
 	}
 	ul li:nth-child(odd){
-		background-color:  #f0f0f0 ;
+		background-color:$color-black;
 	}
 	.uk-button{
-		background-color: white;
-		color: black;
+		background-color:$color-white;
+		color: $color-black;
 	}
 	.uk-button:hover{
-		background-color: white;
+		background-color: $color-white;
 	}
 	ul li.checkbox{
-		background-color: #b9b9b9;
 		text-decoration: line-through;
 	}
 	.close {
 		position: absolute;
-		color: red;
-		align: right;
-		right: 0;
+		color: $color-red;
+		align:$dimen-align;
+		right:$dimen-zero-dis;
 		direction: ltr;
 }
 
 .close:hover {
-  background-color: #f44336;
-  color: white;
+  background-color: $color-red;
+  color: $color-white;
 }
 
 
 .split {
-    height: 100%;
-    width: 50%;
+    height:$dimen-height-split;
+    width:$dimen-width-split;
     position: fixed;
-    z-index: 1;
-    top: 0;
+    z-index:$dimen-index;
+    top:$dimen-zero-dis;
     overflow-x: hidden;
     
 }
 
 .left {
-    left: 0;
-    background-color: #111;
+    left:$dimen-zero-dis;
+    background-color:$color-black;
 }
 
 .right {
-    right: 0;
-    background-color: red;
+    right:$dimen-zero-dis;
+    background-color:$color-red;
 }
 .title2{
-	color: white;
-	font-size: 30px;
-	margin-top: 10px;
+	color: $color-white;
+	font-size:$dimen-font-size;
+	margin-top:$dimen-margin;
 }
